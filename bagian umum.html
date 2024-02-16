@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KE Kedai</title>
+    <!-- Link Swiper's css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- 
+      Nama : Karol Efrido Sanggam Purba
+      Kelas : IF - 9
+      Nim : 10123380
+     -->
+
+    <!-- font dari cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- kostum css link -->
+    <link rel="stylesheet" href="bagian.css" />
+    <!-- LInk CSS bootstrap -->
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Section awal -->
+    <header>
+      <a href="#" class="logo"><i class="fas-fa-untensils">KE Kedai</i></a>
+      <nav class="navbar">
+        <a class="active" href="#beranda">beranda</a>
+        <a href="#menu">menu</a>
+        <a href="/bootstrap-5.0.2-dist/order.html">pesan</a>
+        <a href="/bootstrap-5.0.2-dist/login.html">login</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-shooping-cart"></a>
+      </div>
+    </header>
+    <!-- Header Section Akhir -->
+
+    <!-- Search Form -->
+
+    <form action="" id="search-form">
+      <input type="search" placeholder="search..." name="" id="search-box" />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- beranda section awal -->
+    <section class="beranda" id="beranda">
+      <div class="swiper mySwiper beranda-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>hidangan makanan kami</span>
+              <h3>nasi ayam bakar sambal matah</h3>
+              <div class="image">
+                <img src="/image/ayam bakar sambal matah.jpeg" alt="" />
+              </div>
+              <p>
+                Nasi Ayam bakar sambal matah adalah makanan asli indonesia yang
+                menggunakan sambal matah yaang bahan nya dari bumbu dapur
+              </p>
+              <span>Rp. 13.000</span>
+              <a href="#" class="btn">Pesan Sekarang</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <h3>nasi goreng ayam krispi</h3>
+              <div class="image">
+                <img
+                  src="/image/resep-nasi-goreng-ayam-tepung-krispi.jpg"
+                  alt=""
+                />
+              </div>
+              <p>
+                nasi goreng ayam krispi adalah makanan asli indonesia yang
+                berpaduan nasi goreng dan ayam krispi
+              </p>
+              <span>Rp. 15.000</span>
+              <a href="#" class="btn">Pesan Sekarang</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <h3>nasi ayam geprek</h3>
+              <div class="image">
+                <img src="/image/nasi ayam geprek.jpeg" alt="" />
+              </div>
+              <p>
+                nasi ayam geprek adalah makanan asli indonesia yang mempunyai
+                sambal asli dari indonesia,dan mempunyai level kepedasannya
+                mulai dari level 1-5
+              </p>
+              <span>Rp. 20.000</span>
+              <a href="#" class="btn">Pesan Sekarang</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <h3>nasi kulit ayam krispi</h3>
+              <div class="image">
+                <img src="/image/nasi-kulit-ayam-krispi.jpg" alt="" />
+              </div>
+              <p>
+                nasi kulit ayam krispi adalah makanan lokal khas indonesia yang
+                mempunyai kelezatan kripsi yang gurih nyaman memanjakan mulut
+                anda dengan krispi yang sangat gurih
+              </p>
+              <span>Rp.15.000</span>
+              <a href="#" class="btn">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- beranda section akhir -->
+
+    <!-- menu section starts -->
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">hidangan cemilan kami</h3>
+      <h3 class="sub-heading">makanan terfavorit</h3>
+      <div class="box-container">
+        <div class="box">
+          <h3>Kentang goreng</h3>
+          <img src="/image/kentang goreng.jpg" />
+          <span>Rp. 5.000</span>
+          <a href="#" class="btn">Tambahkan ke pesanan</a>
+        </div>
+
+        <div class="box">
+          <h3>Air mineral</h3>
+          <img src="/image/air mineral.jpeg" />
+          <span>Rp. 1.000</span>
+          <a href="#" class="btn">Tambahkan ke pesanan</a>
+        </div>
+
+        <div class="box">
+          <h3>Sosis Bakar</h3>
+          <img src="/image/sosis bakar.jpg" />
+          <span>Rp. 10.000</span>
+          <a href="#" class="btn">Tambahkan ke pesanan</a>
+        </div>
+
+        <div class="box">
+          <h3>Burger</h3>
+          <img src="/image/Burgers.jpg" />
+          <span>Rp. 15.000</span>
+          <a href="#" class="btn">Tambahkan ke pesanan</a>
+        </div>
+      </div>
+    </section>
+    <!-- Saran Bootsrap -->
+    <div class="form-floating">
+      <textarea
+        class="form-control"
+        placeholder="Leave a comment here"
+        id="floatingTextarea"
+      ></textarea>
+      <label for="floatingTextarea">Saran</label>
+    </div>
+    <!-- menu section end -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- buat naro js -->
+    <script src="bagian.js"></script>
+  </body>
+</html>

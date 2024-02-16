@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form pemesanan makanan</title>
+    <!-- Link file Css Boostrap -->
+    <link
+      rel="stylesheet"
+      href="/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <figure class="text-center">
+              <blockquote class="blockquote">
+                <h3>ORDER MAKANAN</h3>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                Silahkan Pesan makanan Anda di
+                <cite title="Source Title">KE Kedai</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Nama Lengkap</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              Silahkan Masukkan Nama Anda Yang Benar !
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="disabledTextInput" class="form-label"
+              >Jenis Makanan</label
+            >
+            <input
+              type="text"
+              id="disabledTextInput"
+              class="form-control"
+              placeholder="Disabled input"
+            />
+          </div>
+
+          <select
+            class="form-select form-select-sm"
+            aria-label=".form-select-sm example"
+          >
+            <option selected>MAKANAN BERAT</option>
+            <option value="1">Nasi Ayam Bakar Sambal matah</option>
+            <option value="2">Nasi Goreng Ayam Krispi</option>
+            <option value="3">Nasi Ayam Geprek</option>
+            <option value="4">Nasi Kulit Ayam Krispi</option>
+
+            <option selected>CEMILAN</option>
+            <option value="1">Kentang Goreng</option>
+            <option value="2">Air Mineral</option>
+            <option value="3">Sosis bakar</option>
+            <option value="4">Burger</option>
+          </select>
+        </form>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Apakah Pesanan Makanan Sudah lengkap?</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Pesan</button>
+      </div>
+    </section>
+    <!-- naro js -->
+    <script src="/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
